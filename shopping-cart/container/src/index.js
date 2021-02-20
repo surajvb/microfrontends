@@ -1,1 +1,1 @@
-document.querySelector('#dev-container').innerHTML = `<div>I am the container</div>`
+import('./bootstrap');
