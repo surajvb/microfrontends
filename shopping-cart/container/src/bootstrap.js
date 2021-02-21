@@ -1,4 +1,6 @@
 import 'products/ProductsIndex';
-import 'cart/CartShow';
+import {mount} from 'cart/CartShow';
 
 console.log('Container!');
+
+mount(document.querySelector('#dev-cart'))
